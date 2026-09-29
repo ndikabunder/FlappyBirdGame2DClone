@@ -2,8 +2,11 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
-  tags: []
+  serializedVersion: 3
+  tags:
+  - Bird
+  - Pipe
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -11,12 +14,12 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Bird
+  - Pipe
+  - Ground
+  - ScoreTrigger
+  - Background
+  - UI_FX
   - 
   - 
   - 
@@ -41,3 +44,23 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 2834111589
+    locked: 0
+  - name: Pipes
+    uniqueID: 3930898245
+    locked: 0
+  - name: Ground
+    uniqueID: 3236385127
+    locked: 0
+  - name: Bird
+    uniqueID: 3742107687
+    locked: 0
+  - name: FX
+    uniqueID: 565972591
+    locked: 0
+  - name: UI
+    uniqueID: 1431281149
+    locked: 0
+  m_RenderingLayers:
+  - Default
